@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01DC542217C69D100ECF356 /* CXPedometerData.m in Sources */ = {isa = PBXBuildFile; fileRef = C01DC541217C69D100ECF356 /* CXPedometerData.m */; };
+		C01DC545217C69E500ECF356 /* CXPedometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01DC544217C69E500ECF356 /* CXPedometerManager.m */; };
 		C04A9A2F216DF59D000BACD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A9A2E216DF59D000BACD4 /* AppDelegate.m */; };
 		C04A9A32216DF59D000BACD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A9A31216DF59D000BACD4 /* ViewController.m */; };
 		C04A9A35216DF59D000BACD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A9A33216DF59D000BACD4 /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C01DC540217C69D100ECF356 /* CXPedometerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPedometerData.h; sourceTree = "<group>"; };
+		C01DC541217C69D100ECF356 /* CXPedometerData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPedometerData.m; sourceTree = "<group>"; };
+		C01DC543217C69E500ECF356 /* CXPedometerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPedometerManager.h; sourceTree = "<group>"; };
+		C01DC544217C69E500ECF356 /* CXPedometerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPedometerManager.m; sourceTree = "<group>"; };
 		C04A9A2A216DF59D000BACD4 /* CXPedometerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXPedometerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04A9A2D216DF59D000BACD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C04A9A2E216DF59D000BACD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C01DC546217C6F9500ECF356 /* CXPedometer */ = {
+			isa = PBXGroup;
+			children = (
+				C01DC540217C69D100ECF356 /* CXPedometerData.h */,
+				C01DC541217C69D100ECF356 /* CXPedometerData.m */,
+				C01DC543217C69E500ECF356 /* CXPedometerManager.h */,
+				C01DC544217C69E500ECF356 /* CXPedometerManager.m */,
+			);
+			path = CXPedometer;
+			sourceTree = "<group>";
+		};
 		C04A9A21216DF59D000BACD4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +80,7 @@
 				C04A9A30216DF59D000BACD4 /* ViewController.h */,
 				C04A9A31216DF59D000BACD4 /* ViewController.m */,
 				C04A9A33216DF59D000BACD4 /* Main.storyboard */,
+				C01DC546217C6F9500ECF356 /* CXPedometer */,
 				C04A9A36216DF59E000BACD4 /* Assets.xcassets */,
 				C04A9A38216DF59E000BACD4 /* LaunchScreen.storyboard */,
 				C04A9A3B216DF59E000BACD4 /* Info.plist */,
@@ -143,7 +161,9 @@
 			files = (
 				C04A9A32216DF59D000BACD4 /* ViewController.m in Sources */,
 				C04A9A3D216DF59E000BACD4 /* main.m in Sources */,
+				C01DC542217C69D100ECF356 /* CXPedometerData.m in Sources */,
 				C04A9A2F216DF59D000BACD4 /* AppDelegate.m in Sources */,
+				C01DC545217C69E500ECF356 /* CXPedometerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
 				INFOPLIST_FILE = CXPedometerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
 				INFOPLIST_FILE = CXPedometerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
